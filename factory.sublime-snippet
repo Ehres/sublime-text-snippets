@@ -1,0 +1,9 @@
+<snippet>
+  <content>
+    <![CDATA[factory('$1', function($2){
+});
+    ]]>
+</content>
+  <tabTrigger>provider</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

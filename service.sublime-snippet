@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[service('$1', function($2){
+
+});
+    ]]>
+</content>
+  <tabTrigger>service</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

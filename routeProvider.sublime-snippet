@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[\$routeProvider
+  .when('/$1', {
+    templateUrl : '$2',
+    controller  : '$3',
+    resolve     : {
+      $4
+    }
+  }
+);
+]]></content>
+  <tabTrigger>routeProvider</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
