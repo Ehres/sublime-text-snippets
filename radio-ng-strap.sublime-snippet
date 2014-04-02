@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+.btn-group(ng-model="${1:model}", bs-radio-group)
+  label.btn.btn-default
+    input.btn.btn-default(type="radio", value="true")
+    | Enable
+  label.btn.btn-default
+    input.btn.btn-default(type="radio", value="false")
+    | Disable
+]]></content>
+  <tabTrigger>radio</tabTrigger>
+  <scope>source.jade</scope>
+</snippet>
