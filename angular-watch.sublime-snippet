@@ -1,0 +1,7 @@
+<snippet>
+  <content>$scope.$watch('${1:variable}', function(newValue, oldValue){
+  $2
+});</content>
+  <tabTrigger>watch</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
