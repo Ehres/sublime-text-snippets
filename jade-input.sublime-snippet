@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[input.form-control(type="${1:text}", value="{{${2:label}}}")
+]]></content>
+  <tabTrigger>input</tabTrigger>
+  <scope>source.jade</scope>
+</snippet>
