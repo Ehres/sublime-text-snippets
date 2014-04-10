@@ -6,8 +6,7 @@
     resolve     : {
       $4
     }
-  }
-);
+  });
 ]]></content>
   <tabTrigger>routeProvider</tabTrigger>
   <scope>source.js</scope>
