@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[table.table.table-stripped
+  thead
+    tr
+      th #
+      th ${1:Name}
+  tbody
+    tr(ng-repeat="${2:(key, value)} in ${3:list}")
+      td {{\$id}}
+      td ${4:{{name}}}
+]]></content>
+  <tabTrigger>table</tabTrigger>
+  <scope>source.jade</scope>
+</snippet>
