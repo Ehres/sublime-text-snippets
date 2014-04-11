@@ -5,7 +5,7 @@
     resolve     : {
       $4
     }
-  }
+  })
 ]]></content>
   <tabTrigger>when</tabTrigger>
   <scope>source.js</scope>
