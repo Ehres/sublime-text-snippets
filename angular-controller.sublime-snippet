@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[controller('${1:app}Ctrl', function($scope){
+});
+]]></content>
+  <tabTrigger>controller</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
