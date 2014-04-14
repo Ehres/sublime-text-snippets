@@ -1,11 +1,11 @@
 <snippet>
   <content><![CDATA[when('/$1', {
-    templateUrl : '$2',
-    controller  : '$3',
-    resolve     : {
-      $4
-    }
-  })
+  templateUrl : '$2',
+  controller  : '$3',
+  resolve     : {
+    $4
+  }
+})
 ]]></content>
   <tabTrigger>when</tabTrigger>
   <scope>source.js</scope>
