@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[.input-group
+  span.input-group-addon
+    i.fa.fa-${1:@}
+  input.form-control(type="${2:text}", ng-model="$(3:value}")
+]]></content>
+  <tabTrigger>addon-right</tabTrigger>
+  <scope>source.jade</scope>
+</snippet>
