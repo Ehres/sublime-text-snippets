@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[controller('${1:app}Ctrl', function($scope){
-  $2
+  <content><![CDATA[controller('${1:app}Ctrl', function(${2:\$scope}){
+  ${3:test}
 });
 ]]></content>
   <tabTrigger>controller</tabTrigger>
