@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
-$1 : function($2){
+${1:name} : ['${2:param}', function(${2:param}){
   return $3;
-}
+}]
 
 ]]></content>
   <tabTrigger>resolve</tabTrigger>
