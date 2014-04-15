@@ -1,13 +1,13 @@
 <snippet>
-  <content><![CDATA[table.table.table-stripped
+  <content><![CDATA[table.table.table-striped
   thead
     tr
       th ${1:#}
       th ${2:Name}
   tbody
     tr(ng-repeat="${3:(key, value)} in ${4:list}")
-      td {{${5:\$id}}}
-      td ${6:{{name}}}
+      td ${5:{{\$id}}}
+      td {{${3}}}.$2
 ]]></content>
   <tabTrigger>table</tabTrigger>
   <scope>source.jade</scope>
