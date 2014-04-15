@@ -2,12 +2,12 @@
   <content><![CDATA[table.table.table-stripped
   thead
     tr
-      th #
-      th ${1:Name}
+      th ${1:#}
+      th ${2:Name}
   tbody
-    tr(ng-repeat="${2:(key, value)} in ${3:list}")
-      td {{\$id}}
-      td ${4:{{name}}}
+    tr(ng-repeat="${3:(key, value)} in ${4:list}")
+      td {{${5:\$id}}}
+      td ${6:{{name}}}
 ]]></content>
   <tabTrigger>table</tabTrigger>
   <scope>source.jade</scope>
