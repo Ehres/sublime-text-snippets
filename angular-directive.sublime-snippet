@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[directive('$1', function($2){
+  $3
+});
+]]></content>
+  <tabTrigger>directive</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
