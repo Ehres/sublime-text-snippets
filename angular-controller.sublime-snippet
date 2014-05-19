@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[controller('${1:app}Ctrl', function(${2:\$scope}){
+  <content><![CDATA[controller('${1:app}Ctrl', function (${2:\$scope}){
   ${3:test}
 });
 ]]></content>

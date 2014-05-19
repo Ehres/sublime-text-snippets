@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-${1:name} : ['${2:param}', function(${2:param}){
+${1:name} : ['${2:param}', function (${2:param}){
   return $3;
 }]
 

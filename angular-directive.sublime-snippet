@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[directive('$1', function($2){
+  <content><![CDATA[directive('$1', function ($2){
   $3
 });
 ]]></content>

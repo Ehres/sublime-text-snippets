@@ -1,6 +1,6 @@
 <snippet>
   <content>
-    <![CDATA[provider('$1', function($2){
+    <![CDATA[provider('$1', function ($2){
   var defaults = this.defaults = {};
 
   this.\$get = function($3){

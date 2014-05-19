@@ -1,6 +1,6 @@
 <snippet>
   <content>
-\$scope.${1:method} = function(${2:param}){
+\$scope.${1:method} = function (${2:param}){
   $3
 };</content>
   <tabTrigger>function</tabTrigger>

@@ -1,6 +1,6 @@
 <snippet>
   <content>
-    <![CDATA[service('$1', function($2){
+    <![CDATA[service('$1', function ($2){
 
 });
     ]]>

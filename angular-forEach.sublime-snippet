@@ -1,6 +1,6 @@
 <snippet>
   <content>
-angular.forEach(${1:array}, function(${2:value}){
+angular.forEach(${1:array}, function (${2:value}){
   $3
 });
 </content>
