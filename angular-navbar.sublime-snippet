@@ -8,8 +8,8 @@
         li(data-match-route=".*${3:home}.*"): a(href="#/${4:home}") Home
 
       ul.nav.navbar-nav.navbar-right
-        li.dropdown(bs-dropdown="dropdownMenu")
-          a.dropdown-toggle(href="javascript:void(0)", data-toggle="dropdown")
+        li.dropdown
+          a.dropdown-toggle(href="javascript:void(0)", data-toggle="dropdown", bs-dropdown="dropdownMenu")
             i.fa.fa-flag-o
               | &nbsp;{{ locale }}
               b.caret
